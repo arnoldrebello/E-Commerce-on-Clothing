@@ -8,7 +8,7 @@ if(isset($_SESSION["uid"])){
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Khan Store</title>
+		<title>Aishu Clothing Co.</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -21,7 +21,7 @@ if(isset($_SESSION["uid"])){
 	<div class="loader"></div>
 </div>
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">	
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
 					<span class="sr-only">navigation</span>
@@ -29,14 +29,10 @@ if(isset($_SESSION["uid"])){
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">Khan Store</a>
+				<a href="#" class="navbar-brand">Aishu Clothing Co.&nbsp;&nbsp;&nbsp;&nbsp;Est. 2019</a>
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
-			</ul>
-			<form class="navbar-form navbar-left">
+			<form class="navbar-form navbar-right">
 		        <div class="form-group">
 		          <input type="text" class="form-control" placeholder="Search" id="search">
 		        </div>
@@ -51,7 +47,7 @@ if(isset($_SESSION["uid"])){
 									<div class="col-md-3">Sl.No</div>
 									<div class="col-md-3">Product Image</div>
 									<div class="col-md-3">Product Name</div>
-									<div class="col-md-3">Price in $.</div>
+									<div class="col-md-3">Price in &#x20B9</div>
 								</div>
 							</div>
 							<div class="panel-body">
@@ -89,9 +85,13 @@ if(isset($_SESSION["uid"])){
 					</ul>
 				</li>
 			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+			</ul>
 		</div>
 	</div>
-</div>	
+</div>
 	<p><br/></p>
 	<p><br/></p>
 	<p><br/></p>
@@ -149,51 +149,3 @@ if(isset($_SESSION["uid"])){
 	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
