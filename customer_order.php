@@ -20,7 +20,7 @@ if(!isset($_SESSION["uid"])){
 	</head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">	
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<a href="#" class="navbar-brand">Aishu Clothing Co.</a>
 			</div>
@@ -34,7 +34,7 @@ if(!isset($_SESSION["uid"])){
 	<p><br/></p>
 	<p><br/></p>
 	<div class="container-fluid">
-	
+
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
@@ -68,7 +68,7 @@ if(!isset($_SESSION["uid"])){
 								}
 							}
 						?>
-						
+
 					</div>
 					<div class="panel-footer"></div>
 				</div>
@@ -76,53 +76,7 @@ if(!isset($_SESSION["uid"])){
 			<div class="col-md-2"></div>
 		</div>
 	</div>
+	<div class="panel-footer"  >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
