@@ -1,12 +1,11 @@
 <?php
-
-
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Khan Store</title>
+		<title>Aishu Clothing Co.</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -14,11 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 <body>
-<div class="wait overlay">
-	<div class="loader"></div>
-</div>
+
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">	
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
 					<span class="sr-only">navigation</span>
@@ -26,7 +23,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">Khan Store</a>
+				<a href="#" class="navbar-brand">Aishu Clothing Co.</a>
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
@@ -43,7 +40,7 @@
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8" id="cart_msg">
-				<!--Cart Message--> 
+				<!--Cart Message-->
 			</div>
 			<div class="col-md-2"></div>
 		</div>
@@ -80,30 +77,14 @@
 							<div class="col-md-4">
 								<b>Total $500000</b>
 							</div> -->
-						</div> 
+						</div>
 					</div>
-					<div class="panel-footer"></div>
+				
 				</div>
 			</div>
 			<div class="col-md-2"></div>
-			
+			<div class="panel-footer"  >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
+
 		</div>
-</body>	
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		

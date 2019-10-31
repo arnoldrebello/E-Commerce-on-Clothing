@@ -1,13 +1,13 @@
 <?php
 if (isset($_GET["register"])) {
-	
+
 	?>
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Khan Store</title>
+		<title>Aishu Clothing Co.</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -15,13 +15,10 @@ if (isset($_GET["register"])) {
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 <body>
-<div class="wait overlay">
-	<div class="loader"></div>
-</div>
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">	
+		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand">Khan Store</a>
+				<a href="#" class="navbar-brand">Aishu Clothing Co.</a>
 			</div>
 			<ul class="nav navbar-nav">
 				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
@@ -46,7 +43,7 @@ if (isset($_GET["register"])) {
 				<div class="panel panel-primary">
 					<div class="panel-heading">Customer SignUp Form</div>
 					<div class="panel-body">
-					
+
 					<form id="signup_form" onsubmit="return false">
 						<div class="row">
 							<div class="col-md-6">
@@ -100,13 +97,14 @@ if (isset($_GET["register"])) {
 								<input style="width:100%;" value="Sign Up" type="submit" name="signup_button"class="btn btn-success btn-lg">
 							</div>
 						</div>
-						
+
 					</div>
 					</form>
 					<div class="panel-footer"></div>
 				</div>
 			</div>
 			<div class="col-md-2"></div>
+			
 		</div>
 	</div>
 </body>
@@ -117,25 +115,3 @@ if (isset($_GET["register"])) {
 
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
