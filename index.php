@@ -1,7 +1,7 @@
 <?php
-session_start();
-if(isset($_SESSION["uid"])){
-	header("location:profile.php");
+session_start();          //creates a session or resumes the current one based on a session identifier passed via a GET or POST request
+if(isset($_SESSION["uid"])){           //a php session is started and user informatation is used. this is a temporary information which is emptied once the user stops the server
+	header("location:profile.php");			//header is required to redirect to a new page. it is not necessary though
 }
 ?>
 <!DOCTYPE html>
@@ -141,7 +141,7 @@ if(isset($_SESSION["uid"])){
 							</div>
 						</div> -->
 					</div>
-					<div class="panel-footer">&copy; 2016</div>
+					<div class="panel-footer"  >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
