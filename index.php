@@ -35,28 +35,32 @@ body{
 			<div class="collapse navbar-collapse" id="collapse">
 				<form class="navbar-form navbar-left">
 			        <div class="form-group">
-			          <input type="text" class="form-control" placeholder="Search" id="search" style = "background-color: rgb(46,46,46);">
+			          <input type="text" class="form-control" placeholder="Search" id="search" style = "background-color: rgb(46,46,46); width: 290px" >
 			        </div>
 			        <button type="submit" class="btn btn-primary" id="search_btn" style="background-color: red"><span class="glyphicon glyphicon-search"></span></button>
 			     </form>
+
+
+
+
 				<ul class="nav navbar-nav navbar-right" >
 					<ul class="nav navbar-nav">
 						<li><a href="index.php" style="color:Red;"><span class="glyphicon glyphicon-home"></span>Home</a></li>
 						<li><a href="index.php" style="color:Red;"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
 					</ul>
 					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:Red;"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge">0</span></a>
-						<div class="dropdown-menu" style="width:400px;">
-							<div class="panel panel-success">
-								<div class="panel-heading">
-									<div class="row">
+						<div class="dropdown-menu" style="width:400px;" style="background-color: rgb(46,46,46);">
+							<div class="panel panel-success" style="background-color: rgb(46,46,46);">
+								<div class="panel-heading" style="background-color: red;">
+									<div class="row" style="color:black">
 										<div class="col-md-3">Sl.No</div>
 										<div class="col-md-3">Product Image</div>
 										<div class="col-md-3">Product Name</div>
-										<div class="col-md-3">Price in $.</div>
+										<div class="col-md-3">Price in &#x20B9.</div>
 									</div>
 								</div>
-								<div class="panel-body">
-									<div id="cart_product">
+								<div class="panel-body" style="background-color: rgb(46,46,46);" >
+									<div id="cart_product" style="background-color: rgb(46,46,46);">
 									<!--<div class="row">
 										<div class="col-md-3">Sl.No</div>
 										<div class="col-md-3">Product Image</div>
@@ -65,10 +69,15 @@ body{
 									</div>-->
 									</div>
 								</div>
-								<div class="panel-footer"></div>
+								<div class="panel-footer" style="background-color: red"></div>
 							</div>
 						</div>
 					</li>
+
+
+
+
+
 
 					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:Red;"><span class="glyphicon glyphicon-user"></span>SignIn</a>
 						<ul class="dropdown-menu">
@@ -82,10 +91,12 @@ body{
 											<label for="email">Password</label>
 											<input type="password" class="form-control" name="password" id="password" required/>
 											<p><br/></p>
-											<a href="#" style="color:white; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;">
+											<input type="submit" class="btn btn-success" style="float:right;">
+											<a href="#" style="color:white; list-style:none;">Forgotten Password </br></a>
+											<a href="customer_registration.php" style="color:white; list-style:none;">New User</a>
+
 										</form>
 									</div>
-									<div class="panel-footer" id="e_msg"></div>
 								</div>
 							</div>
 						</ul>
