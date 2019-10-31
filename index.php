@@ -24,23 +24,20 @@ body{
 
 
 <body>
-	<div class="navbar navbar-light" style="background-color: black;">				<!-- bootstrap navigation bar classes -->
+	<div class="navbar navbar-inverted" style="background-color: black;">				<!-- bootstrap navigation bar classes -->
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-					<span class="sr-only">navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
 				<a href="#" class="navbar-brand" style="color:Red;">Aishu Clothing Co.&nbsp;&nbsp;&nbsp;&nbsp;Est. 2019</a>
 			</div>
+
+ 
+
 			<div class="collapse navbar-collapse" id="collapse">
 				<form class="navbar-form navbar-left">
 			        <div class="form-group">
-			          <input type="text" class="form-control" placeholder="Search" id="search">
+			          <input type="text" class="form-control" placeholder="Search" id="search" style = "background-color: rgb(46,46,46);">
 			        </div>
-			        <button type="submit" class="btn btn-primary" id="search_btn"><span class="glyphicon glyphicon-search"></span></button>
+			        <button type="submit" class="btn btn-primary" id="search_btn" style="background-color: red"><span class="glyphicon glyphicon-search"></span></button>
 			     </form>
 				<ul class="nav navbar-nav navbar-right" >
 					<ul class="nav navbar-nav">
@@ -125,13 +122,13 @@ body{
 	</div>
 	<div class="col-md-8 col-xs-12">
 		<div class="row">
-			<div class="col-md-12 col-xs-12" id="product_msg">
+			<div class="col-md-12 col-xs-12" id="product_msg" style="background-color: rgb(46,46,46);">
 			</div>
 		</div>
-		<div class="panel panel-info">
-			<div class="panel-heading">Products</div>
-			<div class="panel-body">
-				<div id="get_product">
+		<div class="panel panel-info" >
+			<div class="panel-heading" style="background-color: rgb(30,30,30);">Products</div>
+			<div class="panel-body" style="background-color: rgb(46,46,46);">
+				<div id="get_product" style="background-color: rgb(46,46,46);">
 					<!--Here we get product jquery Ajax Request-->
 				</div>
 				<!--<div class="col-md-4">
@@ -146,7 +143,7 @@ body{
 	</div>
 </div> -->
 </div>
-<div class="panel-footer"  >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
+<div class="panel-footer" style="background-color: rgb(46,46,46); color: white;" >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
 </div>
 </div>
 <div class="col-md-1"></div>
