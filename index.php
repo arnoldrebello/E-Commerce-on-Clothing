@@ -17,7 +17,8 @@ session_start();          //creates a session or resumes the current one based o
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
 body{
-	background-color: rgb(0,0,0);
+  background-image: url("Background%20Image.jpg");
+  background-repeat: repeat-y;
 }
 	</style>
 </head>
