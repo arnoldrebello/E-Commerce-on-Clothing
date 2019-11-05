@@ -17,27 +17,28 @@ session_start();          //creates a session or resumes the current one based o
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
 body{
-	background-color: rgb(46,46,46);
+	background-color: rgb(0,0,0);
 }
 	</style>
 </head>
 
 
 <body>
-	<div class="navbar navbar-inverted" style="background-color: black;">				<!-- bootstrap navigation bar classes -->
+	<div class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgb(50,50,50);">				<!-- bootstrap navigation bar classes -->
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand" style="color:Red;">Aishu Clothing Co.&nbsp;&nbsp;&nbsp;&nbsp;Est. 2019</a>
+				<a href="#" class="navbar-brand" style="color:white;">Aishu Clothing Co.</a>
+				<a href="#" class="navbar-brand" style="color:white; font-size: 10px">Est. 2019</a>
 			</div>
 
- 
+
 
 			<div class="collapse navbar-collapse" id="collapse">
 				<form class="navbar-form navbar-left">
 			        <div class="form-group">
-			          <input type="text" class="form-control" placeholder="Search" id="search" style = "background-color: rgb(46,46,46); width: 290px" >
+			          <input type="text" class="form-control" placeholder="Search" id="search" style = "background-color: rgb(107,109,110); width: 290px" >
 			        </div>
-			        <button type="submit" class="btn btn-primary" id="search_btn" style="background-color: red"><span class="glyphicon glyphicon-search"></span></button>
+			        <button type="submit" class="btn btn-primary" id="search_btn" style="background-color: transparent"><span class="glyphicon glyphicon-search"></span></button>
 			     </form>
 
 
@@ -131,6 +132,7 @@ body{
 			<li><a href="#">Categories</a></li>
 		</div> -->
 	</div>
+
 	<div class="col-md-8 col-xs-12">
 		<div class="row">
 			<div class="col-md-12 col-xs-12" id="product_msg" style="background-color: rgb(46,46,46);">
@@ -138,6 +140,7 @@ body{
 		</div>
 		<div class="panel panel-info" >
 			<div class="panel-heading" style="background-color: rgb(30,30,30);">Products</div>
+			<iframe src="bootcar.html" width="100%" height="800px"></iframe>
 			<div class="panel-body" style="background-color: rgb(46,46,46);">
 				<div id="get_product" style="background-color: rgb(46,46,46);">
 					<!--Here we get product jquery Ajax Request-->
@@ -154,7 +157,7 @@ body{
 	</div>
 </div> -->
 </div>
-<div class="panel-footer" style="background-color: rgb(46,46,46); color: white;" >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
+<div class="panel-footer" style="background-color: rgb(245,245,247)); color: rgb(133,133,138); position: fixed; left:0; bottom:0; width:100%; height:40px; align:center" >&copy; 2019 &nbsp; Aishu Clothing Co.&trade; <span style="float:right">All Rights Reserved&reg<span> </div>
 </div>
 </div>
 <div class="col-md-1"></div>
