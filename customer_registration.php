@@ -1,8 +1,9 @@
-<!-- <?php
-if (isset($_GET["register"])) {
-
+<?php
+session_start();
+// if (isset($_GET["register"]))
+{
 	?>
- -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -104,7 +105,7 @@ if (isset($_GET["register"])) {
 				</div>
 			</div>
 			<div class="col-md-2"></div>
-			
+
 		</div>
 	</div>
 </body>
