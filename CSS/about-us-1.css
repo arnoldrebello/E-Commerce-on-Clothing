@@ -7,10 +7,10 @@
 #product-header-section, .intro-type .container {
     padding: 68px 15px 72px !important;
 }
-@media (min-width: 1630px)
-.container {
+/* @media (min-width: 1630px) */
+/* .container {
     width: 1630px;
-}
+} */
 .parallax {
     background-attachment: inherit !important;
 }
@@ -74,9 +74,10 @@
     padding: 100px 15px;
 }
 .culture-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(https://www.solodev.com/assets/culture.jpg) top no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url('../Images/8.jpg') top no-repeat;
     /* background-color: #095c87; */
     /* color: #fff; */
+    background-attachment: fixed;
 }
 .company-sections, .careers-sections, .left-headquarter-section-img, .right-headquarter-section-img {
     text-align: center;
