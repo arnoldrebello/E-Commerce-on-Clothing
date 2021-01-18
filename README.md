@@ -1,26 +1,23 @@
-# Air-Strike
-Modern OpenGL project in C++
+# E-Commerce on Clothing
 
-The Project runs at 4K and 120Hz making complete use of GPU processing and Memory
+As a requirement in my undergraduate program, I designed the frontend and backend of a website with HTML, CSS, JavaScript and PHP. Backend querying language was SQL. 
 
-Step 1: Installation and setup of IDE
-- Install Visual Studio 2019 with all essential components 
-- open VS installer -> Modify and check desktop development with C++ and game development with C++
-- enable Windows 10 SDK and C++ profiling tools in the optional section
+To Run the project, Host a local server or get a web hosting
+Easiest Way to it is using XAMPP with phpMyAdmin Database
 
-Step 2: Installation of Libraries
-- Move the CGV Project folder to Documents->Visual Studio 2019->Projects 
-- Install GLEW, GLFW, GLM, ASSIMP libraries in Documents->Visual Studio 2019->External Libs
-- Open project properties, under C/C++->Additional include directories->add the include file paths
-- under Linker->Additional Library Directories-> add the lib file paths
-- under Linker->Input->Additional Dependencies type the following
-opengl32.lib
-glew32.lib
-glfw3.lib
-assimp.lib
+Step 1: Install and run XAMPP, 
+- start services
+- Start Apache, MySQL, ProFTPD
 
-Step 3: Running the project
-- open the file CGV Project.sln 
-- Build -> Clean Solution
-- Build -> Build Solution
-- Debug -> Start debugging(F5)
+Step 2: For a mac, under volume -> mount -> explore
+- under htdocs folder move the project folder
+- open the browser and type in (IP Address given by xampp)/phpmyadmin
+- from project->database, import Zanders.sql into phpmyadmin
+- open browser and type in (IP Address given by xampp)/E-Commerce-on-Clothing-master/index.html
+
+for windows, 
+- C:/(Locate XAMPP/htdocs)
+- move project folder into it
+- open the browser and type in localhost/phpmyadmin
+- from project->database, import Zanders.sql into phpmyadmin
+- open browser and type in localhost/E-Commerce-on-Clothing-master/index.html
